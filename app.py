@@ -467,12 +467,12 @@ def  final_conclusion(tp,fp, pos_news,subject_name, num_results):
 
 def main():
     load_dotenv()
-    #api_key = ''
-    #wx_api_key = ""
-    #api_endpoint = "https://workbench-api.res.ibm.com/v1/"
-    api_key = os.environ.get('api_key')
-    wx_api_key = os.environ.get('wx_api_key')
-    api_endpoint = os.environ.get('api_endpoint')
+    api_key = '06921176-9c75-4f3e-b2f5-58da9733adb3'
+    wx_api_key = "pak-kWW_nqfkQINjaMT_ixC3AFEaq8s0jrC2oqSIVXvTR6E"
+    api_endpoint = "https://workbench-api.res.ibm.com/v1/"
+    #api_key = os.environ.get('api_key')
+    #wx_api_key = os.environ.get('wx_api_key')
+    #api_endpoint = os.environ.get('api_endpoint')
     creds = Credentials(wx_api_key, api_endpoint)
 
     params_classify = GenerateParams(decoding_method="greedy")
